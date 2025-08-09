@@ -11,11 +11,11 @@ class SysUsers extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
 
+    protected $table = 'sys_users';
     protected $fillable = [
         'name',
         'username',
         'email',
-        'phone_no',
         'password',
     ];
 

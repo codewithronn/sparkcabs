@@ -12,6 +12,8 @@ class UserDriver extends Model
     protected $fillable = [
         'user_id',
         'document_ktp',
+        'document_sim',
+        'status',
         'rating',
         'total_trips'
     ];
